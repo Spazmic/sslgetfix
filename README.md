@@ -7,11 +7,15 @@ to get that image from the source website periodically and save it under your we
 webserver.
 
 
-Installation
+##Installation
 
+**1- Download the imagefetcher.sh file to a directory on your server.**
+cd /path/to/desiredfolder
+wget https://www.github.com/Spazmic/sslgetfix/imagefetcher.sh
 
+**2- Add a rule to your crontab""
+crontab -e
 
-Add this to your crontab
+Add this:
 */2 * * * * /path/to/imagefetcher.sh
 
-with the command crontab -e
