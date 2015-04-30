@@ -10,10 +10,13 @@ webserver.
 ##Installation
 
 **1- Download the imagefetcher.sh file to a directory on your server.**
+```
 cd /path/to/desiredfolder
 wget https://github.com/Spazmic/sslgetfix/blob/master/imagefetcher.sh
+```
 
 **2- Add a rule to your crontab**
+
 ```crontab -e```
 
 Add this:
