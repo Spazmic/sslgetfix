@@ -19,9 +19,12 @@ wget https://github.com/Spazmic/sslgetfix/blob/master/imagefetcher.sh
 
 ```nano imagefetcher.sh```
 
+Replace "http://www.urltoimage.com/image.png" for the url of the image.
+By default, this script will save the image.png in the /opt folder and then copy that image.png to the webserver.
+You can modify the receiving folder.
 
-**3- Add the rule to your 
-crontab**
+
+**3- Add the rule to your crontab**
 
 ```crontab -e```
 
