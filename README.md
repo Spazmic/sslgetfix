@@ -13,8 +13,8 @@ webserver.
 cd /path/to/desiredfolder
 wget https://github.com/Spazmic/sslgetfix/blob/master/imagefetcher.sh
 
-**2- Add a rule to your crontab""
-crontab -e
+**2- Add a rule to your crontab**
+```crontab -e```
 
 Add this:
 */2 * * * * /path/to/imagefetcher.sh
