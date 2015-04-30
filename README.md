@@ -15,10 +15,17 @@ cd /path/to/desiredfolder
 wget https://github.com/Spazmic/sslgetfix/blob/master/imagefetcher.sh
 ```
 
-**2- Add a rule to your crontab**
+**2- Modify the imagefetcher.sh file to fit your needs.**
+
+```nano imagefetcher.sh```
+
+
+**3- Add the rule to your 
+crontab**
 
 ```crontab -e```
 
-Add this:
-*/2 * * * * /path/to/imagefetcher.sh
+Put this at the end. You can change the amount of time of the fetch. Here is an example for 2 minutes.
+
+```*/2 * * * * /path/to/imagefetcher.sh```
 
