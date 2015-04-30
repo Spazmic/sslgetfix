@@ -12,6 +12,6 @@ Installation
 
 
 Add this to your crontab
-*/2 * * * * /path/to/script.sh
+*/2 * * * * /path/to/imagefetcher.sh
 
 with the command crontab -e
